@@ -28,5 +28,4 @@ def update_array_at_with(array, index, value)
 end
 
 
-  puts "X"
 end
