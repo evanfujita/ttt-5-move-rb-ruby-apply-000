@@ -15,5 +15,4 @@ end
 def move(board, index, value = "X")
     board[index] = value
 end
-    
-    updated_board(board, 0, "X")
+  
