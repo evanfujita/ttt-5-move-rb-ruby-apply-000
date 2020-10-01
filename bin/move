@@ -15,7 +15,3 @@ display_board(board, move)
 input = gets.strip
 
 input = input_to_index
-
-
-
-
