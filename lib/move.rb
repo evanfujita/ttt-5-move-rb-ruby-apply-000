@@ -28,8 +28,8 @@ end
 def move(board, index, value)
     board[index] = value
 end
-  
+  board << move
   
     
     
-    update_array_at_with(board, 0, "X")
+    updated_board(board, 0, "X")
