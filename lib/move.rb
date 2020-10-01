@@ -27,7 +27,7 @@ end
 
 def move(board, index, value)
     board[index] = value
-    board << value
+    board.push("value")
 end
   
   
