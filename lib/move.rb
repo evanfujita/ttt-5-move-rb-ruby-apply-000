@@ -8,8 +8,7 @@ def display_board(board)
 end
 
 def input_to_index(input)
-  input_to_index = input.to_i - 1
-  index = input_to_index
+  index = input.to_i - 1
 end
 
 def move(board, index, value = "X")
