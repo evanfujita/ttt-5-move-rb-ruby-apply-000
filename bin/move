@@ -16,6 +16,7 @@ def display_board(board)
 end
 puts "Where would you like to go?"
 end
+display_board(board)
 input = gets.strip
 
 
