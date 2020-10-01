@@ -15,7 +15,6 @@ end
 def input_to_index(input)
   input = "input - 1"
   board[#{input}] << "X"
-  
 end
 
 def move(board, position, character)
