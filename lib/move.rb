@@ -15,7 +15,7 @@ def input_to_index(input)
 end
 
 
-board = [" "]
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " ", ]
 
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
@@ -27,7 +27,7 @@ end
 
 def move(board, index, value)
     board[index] = value
-    board.push(value)
+    board.push(index)
 end
   
   
