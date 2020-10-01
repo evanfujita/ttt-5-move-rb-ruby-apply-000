@@ -16,8 +16,10 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 puts "Where would you like to go?"
-end
+
 display_board(board)
+end
+
 input = gets.strip
 
 
