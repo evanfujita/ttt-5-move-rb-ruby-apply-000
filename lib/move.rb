@@ -12,16 +12,13 @@ def display_board(board)
 end
 
 
-
-
-
-
 def input_to_index(input)
   index = input.to_i - 1
 end
 
-def move(board, position, character)
-    board[#{position}]
+
+def move(board, index, value)
+    board[index] = value
 end
 
 update_array_at_with(board, 0, "X")
