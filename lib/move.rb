@@ -19,6 +19,7 @@ end
 board = [" ", " ", " "]
 def move(board, index, value)
     board[index] = value
+    display_board
 end
 
 update_array_at_with(board, 0, "X")
